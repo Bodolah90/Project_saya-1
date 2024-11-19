@@ -1,0 +1,91 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Warna latar belakang */
+    color: #333; /* Warna teks */
+}
+
+/* Header styles */
+header {
+    background: #165a16; /* Warna latar belakang header */
+    color: #fff; /* Warna teks header */
+    padding: 20px 0; /* Padding atas dan bawah */
+}
+
+.container {
+    width: 80%; /* Lebar kontainer */
+    margin: 0 auto; /* Memusatkan kontainer */
+    display: flex; /* Menggunakan flexbox */
+    align-items: center; /* Mengatur item untuk disejajarkan secara vertikal */
+    justify-content: space-between; /* Menyebar item */
+}
+
+nav ul {
+    list-style: none; /* Menghapus bullet list */
+    display: flex; /* Menggunakan flexbox untuk navigasi */
+}
+
+nav ul li {
+    margin-left: 20px; /* Jarak antar item menu */
+}
+
+nav ul li a {
+    color: #fff; /* Warna teks tautan */
+    text-decoration: none; /* Menghapus garis bawah */
+    font-weight: bold; /* Membuat teks lebih tebal */
+    transition: color 0.3s; /* Transisi warna saat hover */
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Warna saat hover */
+}
+
+/* Main styles */
+main {
+    text-align: center; /* Memusatkan teks */
+    padding: 20px; /* Padding untuk area utama */
+}
+
+h1 {
+    margin: 20px 0; /* Margin atas dan bawah untuk judul */
+}
+
+/* Contact info styles */
+.contact-info {
+    margin: 20px 0; /* Margin untuk area informasi kontak */
+}
+
+.contact-info img {
+    max-width: 100%; /* Gambar responsif */
+    height: auto; /* Mempertahankan rasio aspek */
+    border-radius: 10px; /* Sudut melengkung pada gambar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+}
+
+table {
+    width: 100%; /* Lebar tabel 100% */
+    margin-top: 20px; /* Margin atas untuk tabel */
+    border-collapse: collapse; /* Menghapus jarak antara border sel */
+}
+
+th {
+    padding: 20px; /* Padding dalam sel tabel */
+    text-align: left; /* Rata kiri untuk teks */
+    border: 1px solid #ddd; /* Border sel tabel */
+}
+
+/* Footer styles */
+footer {
+    text-align: center; /* Memusatkan teks footer */
+    padding: 10px 0; /* Padding atas dan bawah untuk footer */
+    background: #333; /* Warna latar belakang footer */
+    color: white; /* Warna teks footer */
+    margin-top: 125px; /* Margin atas untuk footer */
+}

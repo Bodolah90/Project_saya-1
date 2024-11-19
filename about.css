@@ -1,0 +1,96 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #eef2f3; /* Warna latar belakang */
+    color: #333; /* Warna teks */
+}
+
+header {
+    background: #165a16; /* Warna latar header */
+    color: white; /* Warna teks di header */
+    padding: 20px 0;
+    position: relative;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    height: 50px;
+    width: auto;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+header h1 {
+    margin-left: 80px; /* Adjust to make room for the logo */
+    font-size: 2.5em; /* Ukuran font judul */
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none; /* Menghilangkan bullet points */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Menampilkan item menu secara horizontal */
+    margin: 0 20px; /* Jarak antar item menu */
+}
+
+nav ul li a {
+    color: white; /* Warna teks menu */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    font-weight: bold; /* Menebalkan teks */
+    transition: color 0.3s; /* Efek transisi */
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Warna teks saat hover */
+}
+
+.about {
+    padding: 40px 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    margin: 20px 0;
+    border-radius: 8px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+footer {
+    background: #333; /* Warna latar footer */
+    color: white; /* Warna teks di footer */
+    text-align: center; /* Teks di tengah */
+    padding: 20px 0; /* Jarak dalam footer */
+    position: relative;
+    bottom: -65px;
+    width: 100%; /* Lebar penuh */
+}

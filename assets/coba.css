@@ -1,0 +1,156 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #eef2f3; /* Warna latar belakang */
+    color: #333; /* Warna teks */
+}
+
+/* Add styles for the header logo */
+header {
+    background: #165a16; /* Warna latar header */
+    color:  #165a16; /* Warna teks di header */
+    padding: 20px 0;
+    top: -7px;
+    position: relative;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    height: 100px;
+    width: auto;
+    position: absolute;
+    left: -30px;
+    top: 2px;
+}
+
+header h1 {
+    margin-left: 80px; /* Adjust to make room for the logo */
+    font-size: 2.5em; /* Ukuran font judul */
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none; /* Menghilangkan bullet points */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Menampilkan item menu secara horizontal */
+    margin: 0 20px; /* Jarak antar item menu */
+}
+
+nav ul li a {
+    color: white; /* Warna teks menu */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    font-weight: bold; /* Menebalkan teks */
+    transition: color 0.3s; /* Efek transisi */
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Warna teks saat hover */
+}
+
+.hero {
+    background: linear-gradient(rgba(223, 218, 218, 0.7), rgba(73, 78, 83, 0.7)), url('https://www.smktamansiswa1jakarta.sch.id/upload/imagecache/42369912logo_tamsis-480x270.png') no-repeat center center/cover; /* Gambar latar belakang dengan efek gradien */
+    color: white; /* Warna teks di hero section */
+    padding: 80px 20px; /* Jarak dalam hero section */
+    text-align: center; /* Teks di tengah */
+}
+
+.hero h2 {
+    font-size: 2.5em; /* Ukuran font judul */
+    margin-bottom: 10px; /* Jarak bawah judul */
+}
+
+.about {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    margin-bottom: 10px;
+}
+
+.about p {
+    line-height: 1.6;
+}
+
+/* Services section styles */
+.services {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.services h2 {
+    margin-bottom: 10px;
+}
+
+.services p {
+    line-height: 1.6;
+}
+
+
+.btn {
+    display: inline-block; /* Membuat tombol tampil sebagai blok */
+    background: #ffcc00; /* Warna latar tombol */
+    color: #007bff; /* Warna teks tombol */
+    padding: 15px 30px; /* Jarak dalam tombol */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    border-radius: 30px; /* Sudut membulat pada tombol */
+    font-weight: bold; /* Menebalkan teks tombol */
+    transition: background 0.3s, color 0.3s; /* Efek transisi */
+}
+
+.btn:hover {
+    background: #007bff; /* Warna latar tombol saat hover */
+    color: white; /* Warna teks tombol saat hover */
+}
+
+.features {
+    padding: 40px 20px; /* Jarak dalam fitur section */
+    text-align: center; /* Teks di tengah */
+    background: #fff; /* Warna latar fitur section */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    margin: 20px 0; /* Jarak antar fitur section */
+}
+
+.features h2 {
+    margin-bottom: 20px; /* Jarak bawah judul fitur */
+}
+
+.feature {
+    margin: 20px 0; /* Jarak antar fitur */
+    padding: 20px; /* Jarak dalam fitur */
+    border: 1px solid #007bff; /* Garis batas fitur */
+    border-radius: 10px; /* Sudut membulat pada fitur */
+    transition: transform 0.3s; /* Efek transisi */
+}
+
+.feature:hover {
+    transform: scale(1.05); /* Efek zoom saat hover */
+}
+
+footer {
+    background: #333; /* Warna latar footer */
+    color: white; /* Warna teks di footer */
+    text-align: center; /* Teks di tengah */
+    padding: 20px 0; /* Jarak dalam footer */
+    position: relative;
+    bottom: -15px;
+    width: 100%; /* Lebar penuh */
+}
