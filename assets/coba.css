@@ -59,6 +59,28 @@ nav ul li a:hover {
     color: #ffcc00; /* Warna teks saat hover */
 }
 
+/* File styles.css */
+@keyframes rgbAnimation {
+    0% { color: red; }
+    25% { color: green; }
+    50% { color: blue; }
+    75% { color: yellow; }
+    100% { color: red; }
+}
+
+@keyframes moveText {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(300px); }
+    100% { transform: translateX(0); }
+}
+
+.rgb-text {
+    font-size: 2em;
+    font-weight: bold;
+    animation: rgbAnimation 3s infinite, moveText 5s infinite;
+}
+
+
 .hero {
     background: linear-gradient(rgba(223, 218, 218, 0.7), rgba(73, 78, 83, 0.7)), url('https://www.smktamansiswa1jakarta.sch.id/upload/imagecache/42369912logo_tamsis-480x270.png') no-repeat center center/cover; /* Gambar latar belakang dengan efek gradien */
     color: white; /* Warna teks di hero section */
