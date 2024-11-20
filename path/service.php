@@ -27,15 +27,15 @@
                 <div class="gallery-grid">
                     <div class="gallery-item">
                         <img src="../pictures/WhatsApp Image 2024-10-22 at 11.46.49_b4f46d99.jpg" alt="Image 1">
-                        <p>Deskripsi Gambar 1</p>
+                        <p>Gambar 1</p>
                     </div>
                     <div class="gallery-item">
                         <img src="../pictures/WhatsApp Image 2024-02-23 at 08.06.28_ed79f903.jpg" alt="Image 2">
-                        <p>Deskripsi Gambar 2</p>
+                        <p>Gambar 2</p>
                     </div>
                     <div class="gallery-item">
                         <img src="../pictures/WhatsApp Image 2024-11-11 at 08.41.58_5cc171ba.jpg" alt="Image 3">
-                        <p>Deskripsi Gambar 3</p>
+                        <p>Gambar 3</p>
                     </div>
                     <!-- Tambahkan lebih banyak gambar sesuai kebutuhan -->
                 </div>

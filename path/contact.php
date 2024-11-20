@@ -9,7 +9,7 @@
 <body>
 <header>
     <div class="container">
-        <h5>Contact us</h5>
+        <h4>Contact us</h4>
         <nav>
             <ul>
                 <li><a href="../index.php">Beranda</a></li>
