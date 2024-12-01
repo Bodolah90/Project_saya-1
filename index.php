@@ -23,7 +23,7 @@
         </div>
     </header>
     <section class="hero">
-        <h1 class="rgb-text"> SMK TamanSiswa Jetis</h1>
+        <h1> SMK TamanSiswa Jetis</h1>
         <p>Khusus Kelas XI RPL angkatan 2024/2025</p>
     </section>
     <section class="about">
