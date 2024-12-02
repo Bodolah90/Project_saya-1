@@ -60,8 +60,8 @@
         <form method="POST" action="">
             <select name="kelas">
                 <option value="">Pilih kelas</option>
-                <option value="XIRPL" <?php if ($jkl == 'XIRPL') echo 'selected'; ?>>XIRPL</option>
-                <option value="XRPL" <?php if ($jkl == 'XRPL') echo 'selected'; ?>>XRPL</option>
+                <option value="XIRPL" <?php if ($kelas == 'XIRPL') echo 'selected'; ?>>XIRPL</option>
+                <option value="XRPL" <?php if ($kelas == 'XRPL') echo 'selected'; ?>>XRPL</option>
             </select>
             <select name="jkl">
                 <option value="">Pilih Jenis Kelamin</option>
