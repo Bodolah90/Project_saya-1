@@ -16,8 +16,6 @@
                     <li><a href="Daftar.php">Daftar Siswa</a></li>
                     <li><a href="./path/about.php">Tentang Kami</a></li>
                     <li><a href="./path/service.php">Gallery</a></li>
-                    <li><a href="./path/contact.php">Kontak</a></li>
-                    <li><a href="./login/login.php">Login</a></li>
                 </ul>
             </nav>
         </div>

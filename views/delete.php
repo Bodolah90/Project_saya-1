@@ -6,7 +6,7 @@
 
         var_dump($id);
         
-        $status = $conn->query("delete from siswa where idsiswa=$id");
+        $status = $conn->query("delete from siswa where id=$id");
     
         if ($status) {
             header("Location:../index.php");
